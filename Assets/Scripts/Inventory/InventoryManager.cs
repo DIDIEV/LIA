@@ -21,7 +21,7 @@ public class InventoryManager : MonoBehaviour
             {
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
-                Player.instance.freeze = true;
+                Player.Instance.freeze = true;
             }
             else
             {

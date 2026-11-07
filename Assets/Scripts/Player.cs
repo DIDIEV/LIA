@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
 {
     public static Player Instance {get ; private set;}
     [Header("Opciones")]
-    private bool freeze;
+    public bool freeze;
     [Header("Movimiento")]
     public float walkSpeed = 5f;
     public float SprintSpeed = 8f;

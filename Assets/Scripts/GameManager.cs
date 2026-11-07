@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
     
     public ItemDataBase itemDataBase;
     
-    void awake()
+    void Awake()
     {
         if (Instance == null){Instance = this;}
         else {Destroy(gameObject);}    

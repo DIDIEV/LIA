@@ -3,11 +3,11 @@ using UnityEngine;
 public class PlayerAction : MonoBehaviour
 {
     private Camera camera;
-    void start()
+    void Start()
     {
         camera = Camera.main;
     }
-    void update()
+    void Update()
     {   if (Input.GetKeyDown(KeyCode.E))
         {
             if (Physics.Raycast(camera.transform.position , camera.transform.forward , out RaycastHit hit , 5))

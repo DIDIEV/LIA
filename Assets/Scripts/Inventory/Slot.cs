@@ -1,4 +1,5 @@
 
+using System;
 using TMPro;
 using Unity.AppUI.UI;
 using UnityEngine;
@@ -32,4 +33,8 @@ public class Slot : MonoBehaviour
         cantidadText.text = "";
     }
 
+    internal static void AddRange(Slot[] slots)
+    {
+        throw new NotImplementedException();
+    }
 }

@@ -21,13 +21,13 @@ public class InventoryManager : MonoBehaviour
             {
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
-                Player.Instance.freeze = true;
+                //Player.Instance.freeze = true;
             }
             else
             {
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.Locked;
-                Player.Instance.freeze = false;
+                //  Player.Instance.freeze = false;
             }
         }
     }
